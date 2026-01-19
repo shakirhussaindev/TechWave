@@ -28,20 +28,24 @@ a{
 li{
   list-style: none;
 }
-
+/* color */
 .btn-bg{
   background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
 }
 .green{
   color: #00FF88;
 }
+.dark-blue{
+  background-color: #1A0B2E;
+}
+.navy-blue{
+  background-color: #230E3D;
+}
 
 /*  Header style  */
 
 /* Navbar style */
-header{
-  background-color: #1A0B2E;
-}
+
 nav{
   align-items: center;
   justify-content: space-between;
@@ -89,7 +93,6 @@ header hr{
   transform: translateX(-50%);
 }
 .new{
-  color: #1A0B2E;
   font-size: 1.1rem;
   font-weight: 500;
   padding: 8px 16px;
@@ -147,9 +150,8 @@ h1{
 /* About style */
 
 .about{
-  background-color: #1A0B2E;
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 120px;
 }
 .about h2{
   color: white;
@@ -187,3 +189,56 @@ h1{
   flex-direction: column;
   align-items: center;
 }
+
+/* Why-Choose style */
+
+.Why-Choose h2{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+  padding-top: 7.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.techwave{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+.audio{
+  grid-column: span 1;
+  grid-row: span 2;
+}
+.device, .global{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.interviews{
+  grid-column: span 2;
+  grid-row: span 1;
+}
+.resource{
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.box{
+  background-color: rgba(53, 17, 101, 0.40);
+  border-radius: 40px;
+  padding: 40px 40px;
+}
+
+.techwave h3{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 16px 0;
+}
+.techwave p{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 1rem;
+  line-height: 24px;
+}
+
