@@ -29,7 +29,13 @@ li{
   list-style: none;
 }
 
-/* Header style */
+.btn-bg{
+  background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+}
+
+/*  Header style  */
+
+/* Navbar style */
 header{
   background-color: #1A0B2E;
 }
@@ -51,11 +57,86 @@ nav button{
   color: white;
   font-weight: 600;
   font-size: 1rem;
-  background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
   padding: 12.5px 16px;
   border: none;
   border-radius: 22px;
 }
 nav button i{
   margin-left: 4px;
+}
+header hr{
+  border-color: #412567;
+}
+
+/* Hero style */
+.hero-bg{
+  text-align: center;
+  position: relative;
+}
+.hero-circle{
+  position: absolute;
+  top: 101px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.microphone{
+  position: absolute;
+  top: 69px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.new{
+  color: #1A0B2E;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  background-color: #00FF88;
+  border-radius: 22px;
+  position: absolute;
+  top: 12px;
+  right: 23px;
+  box-shadow: 0px 3px 27px #00FF88;
+}
+
+.hero-text{
+  position: absolute;
+  bottom: 101px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+h1{
+  font-size: 3.75rem;
+  color: white;
+  font-weight: 800;
+
+}
+.hero-text p{
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+.btn{
+  justify-content: center;
+  gap: 8px;
+}
+.spotify{
+  border: none;
+  padding: 12.5px 20px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 22px;
+  align-items: center;
+  gap: 8px;
+}
+.sub{
+  border: 1px solid #00FF88;
+  padding: 12.5px 20px;
+  color: #00FF88;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 22px;
+  align-items: center;
+  gap: 8px;
+  background: none;
 }
