@@ -32,6 +32,9 @@ li{
 .btn-bg{
   background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
 }
+.green{
+  color: #00FF88;
+}
 
 /*  Header style  */
 
@@ -139,4 +142,48 @@ h1{
   align-items: center;
   gap: 8px;
   background: none;
+}
+
+/* About style */
+
+.about{
+  background-color: #1A0B2E;
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.about h2{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+.about .pera{
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 1rem;
+  padding-bottom: 16px;
+  line-height: 30px;
+  padding-bottom: 5rem;
+}
+.about hr{
+  opacity: 10%;
+}
+.stat{
+  margin-top: 5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.stat h4{
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 1rem;
+}
+.stat p{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.80);
+}
+.direction{
+  flex-direction: column;
+  align-items: center;
 }
