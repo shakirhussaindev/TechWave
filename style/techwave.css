@@ -25,9 +25,28 @@
 a{
   text-decoration: none;
 }
+
 li{
   list-style: none;
 }
+
+h2{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: 700;
+}
+h3{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 1rem;
+}
+
 /* color */
 .btn-bg{
   background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
@@ -154,10 +173,6 @@ h1{
   padding-bottom: 120px;
 }
 .about h2{
-  color: white;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 700;
   padding-bottom: 16px;
 }
 .about .pera{
@@ -192,11 +207,10 @@ h1{
 
 /* Why-Choose style */
 
+.Why-Choose{
+  padding-bottom: 120px;
+}
 .Why-Choose h2{
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-  font-weight: 700;
   padding-top: 7.5rem;
   padding-bottom: 2.5rem;
 }
@@ -237,8 +251,44 @@ h1{
   padding: 16px 0;
 }
 .techwave p{
-  color: rgba(255, 255, 255, 0.60);
-  font-size: 1rem;
   line-height: 24px;
 }
 
+/* feature style */
+.feature{
+  padding: 120px 0;
+}
+.feature h2{
+  padding-bottom: 40px;
+}
+
+.card{
+  gap: 30px;
+}
+.podcast-card{
+  background-color: #250D44;
+  max-width: 380px;
+  border-radius: 24px;
+}
+iframe{
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+}
+.podcast-card h3{
+  padding: 24px 24px 0 24px;
+}
+.podcast-card p{
+  padding: 12px 24px;
+}
+.duration{
+  align-items: center;
+  padding-left: 24px;
+  gap: 6px;
+  padding-bottom: 24px;
+}
+.duration p{
+  align-items: center;
+  padding-left: 24px;
+  gap: 0px;
+  padding: 0px 0px;
+}
